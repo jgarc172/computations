@@ -82,7 +82,9 @@ of the variable
 ```
 r = 5
 r = r + 2
+is equivalent to
 r = 5 + 2
+finally
 r is 7
 
 the final result of r is 7, by replacing the previous value 5 on the right hand side of the = operator
