@@ -128,13 +128,11 @@ more general
 x^y = 1 * x * x * x * . . . * x for y instances of x
 ```
 
-### Definition
+more specific
 ```
-a * b is the multiplication of a and b
+x^0 = 1                            0 repititions
+x^1 = 1 * x                        1 repitition
+x^2 = 1 * x * x                    2 repititions
+x^3 = 1 * x * x * x                3 repititions
+x^y = 1 * x * x * x * . . . * x    y repetitions
 ```
-
-x^0 = 1
-x^1 = 1 * x
-x^2 = (1 * x) * x
-x^3 = 1 * x * x * x
-x^y = 1 * x * x * x * . . . * x for y repetitions
