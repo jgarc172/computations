@@ -130,9 +130,9 @@ x^y = 1 * x * x * x * . . . * x for y instances of x
 
 more specific
 ```
-x^0 = 1                            0 repititions
-x^1 = 1 * x                        1 repitition
-x^2 = 1 * x * x                    2 repititions
-x^3 = 1 * x * x * x                3 repititions
+x^0 = 1                            0 repetitions
+x^1 = 1 * x                        1 repetition
+x^2 = 1 * x * x                    2 repetitions
+x^3 = 1 * x * x * x                3 repetitions
 x^y = 1 * x * x * x * . . . * x    y repetitions
 ```
