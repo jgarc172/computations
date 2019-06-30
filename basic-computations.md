@@ -183,17 +183,20 @@ the last value of r is the result
 
 1 iteration:
 ```
-r = r * 2 = 1 * 2 = 2
+r = r * 2 
+  = (1) * 2
 r = 2
 ```
 2nd iteration:
 ```
-r = r * 2 = (2) * 2 = 4
+r = r * 2 
+  = (2) * 2
 r = 4
 ```
 3rd iteration:
 ```
-r = r * 2 = (4) * 2 = 8
+r = r * 2 
+  = (4) * 2 = 8
 r = 8
 ```
 The final value of `r` is 8 as expected
