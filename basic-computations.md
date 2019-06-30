@@ -201,3 +201,17 @@ r = 8
 ```
 The final value of `r` is 8 as expected
 
+### Test 2^0
+
+we expect
+```
+2^0 = 1
+```
+Compute the following:
+```
+r = 1
+repeat 0 times:
+   r = r * 2
+the last value of r is the result
+```
+Since there are 0 repetition, the last value of r is 1, which is expected.
