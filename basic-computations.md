@@ -155,33 +155,46 @@ The solution is typically a definition or mathematical equation.  The symbol `=`
 An algorithm that uses variables, uses the symbol `=` to indicate an assignment of a value to a variable.  It replaces the current value of the variable.
 
 ### Power definition:
+```
 x^y = 1 * x * x * x * . . . * x    for y repetitions
+```
 
 ### Algorithm:
+```
 r = 1
 repeat y times:
    r = r * x
 The result is then the last value of r.
+```
 
 ### Test: 2^3
-we expect
-   2^3 = 1 * 2 * 2 * 2 = 8
 
+we expect
+```
+2^3 = 1 * 2 * 2 * 2 = 8
+```
+Compute the following:
+```
 r = 1
-repeat 3 times
+repeat 3 times:
    r = r * 2
-   
-1:
+the last value of r is the result
+```
+
+1 iteration:
+```
 r = r * 2 = 1 * 2 = 2
 r = 2
-
-2:
-r = r * 2 = 2 * 2 = 4
+```
+2nd iteration:
+```
+r = r * 2 = (2) * 2 = 4
 r = 4
-
-3:
-r = r * 2 = 4 * 2 = 8
+```
+3rd iteration:
+```
+r = r * 2 = (4) * 2 = 8
 r = 8
-
-The final value of r is 8 as expected
+```
+The final value of `r` is 8 as expected
 
