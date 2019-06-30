@@ -214,4 +214,4 @@ repeat 0 times:
    r = r * 2
 the last value of r is the result
 ```
-Since there are 0 repetition, the last value of r is 1, which is expected.
+Since there are no (0) repetitions, the last value of r is 1, which is expected.
