@@ -62,7 +62,7 @@ Associate two operands at a time from left
 3 + 5 + 8 + 2 = 18
 ```
 
-### Use Memory Helpers (Variables)
+### Variables
 
 The previous steps were using a memory helper by writing down the intermediate result.  You can use a variable to keep
 track of the intermediate result.
@@ -136,3 +136,52 @@ x^2 = 1 * x * x                    2 repetitions
 x^3 = 1 * x * x * x                3 repetitions
 x^y = 1 * x * x * x * . . . * x    y repetitions
 ```
+
+Using variables
+```
+r = 1                            0 repetitions
+r = r * x                        1 repetition
+r = r * x                        2 repetitions
+r = r * x                        3 repetitions
+r = r * x                        y repetitions
+```
+
+## Algorithms
+
+An algorithm is the description of the steps used to compute the solution.  
+
+The solution is typically a definition or mathematical equation.  The symbol `=` indicates equality.
+
+An algorithm that uses variables, uses the symbol `=` to indicate an assignment of a value to a variable.  It replaces the current value of the variable.
+
+### Power definition:
+x^y = 1 * x * x * x * . . . * x    for y repetitions
+
+### Algorithm:
+r = 1
+repeat y times:
+   r = r * x
+The result is then the last value of r.
+
+### Test: 2^3
+we expect
+   2^3 = 1 * 2 * 2 * 2 = 8
+
+r = 1
+repeat 3 times
+   r = r * 2
+   
+1:
+r = r * 2 = 1 * 2 = 2
+r = 2
+
+2:
+r = r * 2 = 2 * 2 = 4
+r = 4
+
+3:
+r = r * 2 = 4 * 2 = 8
+r = 8
+
+The final value of r is 8 as expected
+
