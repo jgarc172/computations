@@ -139,11 +139,11 @@ x^y = 1 * x * x * x * . . . * x    y repetitions
 
 Using variables
 ```
-r = 1                            0 repetitions
-r = r * x                        1 repetition
-r = r * x                        2 repetitions
-r = r * x                        3 repetitions
-r = r * x                        y repetitions
+r = 1                              0 repetitions
+r = r * x = 1 * x                  1 repetition
+r = r * x = (1 * x) * x            2 repetitions
+r = r * x = (1 * x * x) * x        3 repetitions
+r = r * x = (1 * x * x . . .) * x  y repetitions
 ```
 
 ## Algorithms
