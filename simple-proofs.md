@@ -8,7 +8,7 @@ x * y = 0 + x + x + x . . . for y instances of x
                             and y is a whole number
 ```
 
-Here is one algorithm for `x * y` :
+Here is one of several algorithms for `x * y` :
 
 ```{.line-numbers}
 r <- 0
