@@ -53,7 +53,7 @@ Inductive Case:
 
 `x * y`: for y=k, assume `x * k` is true
 
-In the algorithm: for y=k, assume `r = x * k` is true
+In the algorithm: for y=k, assume `r <- x * k` is true
 
 Prove that that the Loop Invariant is also true for `y = k + 1`
 
@@ -71,7 +71,25 @@ r <- (x * k) + x
 r <- x * (k + 1)
 ```
 
-thus,
+thus:
 ```
 x * (k + 1) <-> x * (k + 1)
+```
+
+Summary:
+The algorithm always produces the expected result for any `y`.
+
+y = 0
+```
+x * 0 <-> r <- 0
+```
+
+y = k
+```
+x * k <-> r <- x * k
+```
+
+y = k + 1
+```
+x * (k + 1) <-> r <- x * (k + 1)
 ```
