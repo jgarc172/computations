@@ -49,7 +49,7 @@ And it can be visualized as this:
                         - - - - -
 ```
 
-## Algorithms
+## Algorithms are the HOW
 
 When you write the steps in the "How", you would have found one of many possible solutions.  These steps are also called an `"algorithm"`.
 
@@ -61,6 +61,35 @@ When you write the steps in the "How", you would have found one of many possible
                         - - - - -
 ```
 In our example above, our algorithm is one of the simplest algorithms you would find, which is applying the `+` operator on the the two numbers that we have.
+
+## The "What" in Algorithms is a Definition
+
+Algorithms produce an outcome, `what I want`.  This outcome must be stated in terms of a proper definition that includes the mentioning of the inputs, `what I have`.
+
+In the example above, a good definition would be the following statement:
+```
+The Sum of two numbers
+```
+
+In a computer program, you might define a function with the following function signature and the algorithm implementation:
+
+In Go:
+
+```go
+// Sum returns the integer addition of integers a and b
+func Sum(a int, b int) int {
+   return a + b
+}
+
+```
+
+Then, the corresponding invocation of the function with values `2 ` and `3`, which in turn computes the algorithm, would be:
+```go
+result := Sum(2,3)
+```
+
+We would expect the value of result to be the integer 5.
+
 
 ## Definitions, Computations, and Sets
 
@@ -315,7 +344,7 @@ N[2] is 5
 N[3] is 8
 N[4] is 2
 ```
-It is a convention in many programming languages to have arrays elements start with the index value of 0.  Such that the values will be referenced as follows:
+It is a convention in many programming languages to have list or array elements start with the index value of 0.  Such that the values will be referenced as follows:
 ```
 N[0] is 3
 N[1] is 5
@@ -327,7 +356,7 @@ Now it is easier to write down the concept of repetition.
 
 Repetition has a `start` and an `end`.  In our case the index `i` starts at 1 and ends at 4 (or starts at 0 and ends at 3).
 
-## Our First Written Algorithm
+## Our First Longer Algorithm
 
 Here is an algorithm that describes our previous exercise to sum a list of integers:
 ```
