@@ -2,13 +2,13 @@
 
 Let's prove one algorithm for `x * y`.
 
-The "What" is a mathematical definition:
+The `"What"` is a mathematical definition:
 ```
 x * y = 0 + x + x + x . . . for y instances of x 
                             and y is a whole number
 ```
 
-Here is one of several algorithms for `x * y` :
+The `"How"` is one of several algorithms for `x * y` :
 
 ```{.line-numbers}
 r <- 0
